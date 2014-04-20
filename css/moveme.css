@@ -3,7 +3,7 @@ html, body{
     font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
-    background-color: #eeefe9;
+    background-color: #f9cc7f;
 }
 h1, h2, h3, h4{
     font-family: 'Abel', sans-serif;   
@@ -51,13 +51,13 @@ b, strong{
   padding: 100px 15px;
 }
 .marketing{
-    background-color: #e9e6df;   
+    background-color: #185e65;   
 }
 hr {
     border-top: 1px solid #c9c9c9;   
 }
 .info{
-    background: #ffa753 url(../images/skyline.png) repeat-x bottom;
+    background: #f9cc7f;
     padding: 80px 0;
 }
 .info small{
@@ -72,9 +72,15 @@ hr {
 .tab-pane{
     padding: 40px 10px 0 10px;
 }
+
+.birdhaus {
+  height: 100%;
+  width: 80%;
+}
+
 .ftr{
-    background: url(../images/blueBackground.jpg);
-    padding: 40px 0 0 0;
+    background: #013859;
+    padding: 80px 0 60px 0;
 }
 
 .footer-right {
@@ -90,22 +96,6 @@ hr {
 }
 .ft_space{
     padding: 0 10px;   
-}
-
-.blog h1 a {
-  color: #4b8575;
-}
-
-.blog p a {
-  color: #ed7337;
-}
-
-.sidebar {
-  background-color: #e9e6df;
-}
-
-.bpad {
-  margin-bottom: 30px;
 }
 
 @media(min-width: 768px) {
