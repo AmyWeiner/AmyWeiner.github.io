@@ -60,6 +60,7 @@ hr {
 .info{
     background: #f9cc7f;
     padding: 80px 0;
+    margin: 0 auto;
 }
 .info small{
     color: #eeefe9;   
@@ -74,14 +75,9 @@ hr {
     padding: 40px 10px 0 10px;
 }
 
-.birdhaus {
-  height: 100%;
-  width: 80%;
-}
-
 .ftr{
     background: #013859;
-    padding: 80px 0 60px 0;
+    padding: 60px 0 20px 0;
 }
 
 .footer-right {
