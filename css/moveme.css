@@ -1,5 +1,5 @@
 html, body{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Signika', sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
@@ -52,6 +52,7 @@ b, strong{
 }
 .marketing{
     background-color: #185e65;   
+    height: 300px;
 }
 hr {
     border-top: 1px solid #c9c9c9;   
