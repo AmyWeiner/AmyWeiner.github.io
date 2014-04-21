@@ -5,9 +5,11 @@ html, body{
     line-height: 1.7;
     background-color: #f9cc7f;
 }
+
 h1, h2, h3, h4{
-    font-family: 'Abel', sans-serif;   
+    font-family: 'Signika', sans-serif;
 }
+
 b, strong{
     font-weight: 400;
 }
@@ -36,6 +38,8 @@ b, strong{
 
 .intro-block img{
     height: 50%;
+    position: relative;
+    top: 20px;
     width: 50%;
 }
 
@@ -43,6 +47,7 @@ b, strong{
     color: #e9e6df;
     font-weight: 100;
 }
+
 .tpad{
     padding-top: 20px;
 }
@@ -50,47 +55,49 @@ b, strong{
 .padded {
   padding: 100px 15px;
 }
+
 .marketing{
     background-color: #185e65;   
     height: 300px;
 }
+
 hr {
     border-top: 1px solid #c9c9c9;   
 }
+
 .info{
     background: #f9cc7f;
     padding: 80px 0;
     margin: 0 auto;
 }
+
 .info small{
     color: #eeefe9;   
 }
+
 .info a{
     color: #fff;   
 }
+
 .info a:hover{
     color: #333;   
 }
+
 .tab-pane{
     padding: 40px 10px 0 10px;
 }
 
 .ftr{
     background: #013859;
+    color: #fff;   
     padding: 60px 0 20px 0;
-}
-
-.footer-right {
-  position: relative;
-  top: -20px;
-  float: right;
-  height: 10%;
-  width: 10%;
+    text-align: center;
 }
 
 .ftr address, .ftr a, .ftr p{
-    color: #fff;   
+    
 }
+
 .ft_space{
     padding: 0 10px;   
 }
