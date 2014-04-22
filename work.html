@@ -35,9 +35,9 @@
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="resume.html">Resume</a></li>
-          <li><a href="work.html">Work</a></li>
+          <li class="active"><a href="work.html">Work</a></li>
           <li><a href="http://console.blog.bucket.com.s3-website-us-east-1.amazonaws.com/" target="_blank">Blog</a></li>
           <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social <b class="caret"></b></a>
@@ -80,43 +80,35 @@
     <!-- Start Page Content -->
     <div class="container padded">
       <div class="row">
-        <div class="col-lg-12"><h2>RECENT WORK</h2><hr>
+        <div class="col-lg-12">
+          <h2>My Work</h2>
+          <hr>
         </div>
-        <div class="row">
-          <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/everestapp.png">
-            <h3>GYM BUDDY</h3>
-            <p>
-              Echo Park cornhole four loko pop-up, wayfarers master cleanse Wes Anderson. Tattooed Portland squid American Apparel, cornhole Bushwick Cosby sweater letterpress fashion axe chillwave. Bitters iPhone ethnic, vegan wolf distillery Brooklyn PBR&B. 
-            </p>
-            <p><a class="btn btn-default" href="http://everestapp.herokuapp.com/" target="_blank">View Site &raquo;</a></p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/everestapp.png">
-            <h3>EVEREST APP</h3>
-            <p>
-              Everest App is a long-term fitness goal tracker that integrates with the Fitbit device. Through the app, Fitbit users can create custom goals, and monitor their progress in real time. The application is built on Ruby on Rails, interfaces with the Fitbit and WolframAlpha APIs, and utilizes the morris.js library for charting the goal completion progress.     
-            </p>
-            <p><a class="btn btn-default" href="#">View Site &raquo;</a></p>
-          </div>
-          <div class="clearfix hidden-md hidden-lg">
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/birdhaus.png">
-            <h3>BIRDHAUS</h3>
-            <p>
-              Birdhaus is a data visualization dashboard, plotting multiple time series of temperature readings. The temperature data was collected over the time period of a week, via digital temperature sensors, connected to a RaspberryPi. The web application is built upon Ruby on Rails and AngularJS, and employs the Highcharts library for displaying the data.  
-            </p>
-            <p><a class="btn btn-default" href="http://birdhaus.herokuapp.com/#/" target="_blank">View Site &raquo;</a></p>
-          </div>
-          <div class="col-sm-6 col-md-3">
-            <img class="img-circle img-responsive" src="images/blog.png">
-            <h3>CONSOLE DOT BLOG</h3>
-            <p>
-              Console Dot Blog is my personal blogging site, detailing my experiences as a web application developer and software engineer, and serving as a forum for discussing new trends and technologies in the industry. It is a static HTML site, built using the Jekyll generator, and is styled with Twitter Bootstrap. 
-            </p>
-            <p><a class="btn btn-default" href="http://console.blog.bucket.com.s3-website-us-east-1.amazonaws.com/" target="_blank">View Site &raquo;</a></p>
-          </div>
+      </div>
+      <div class="row tpad myTooltip">
+        <div class="col-sm-6 col-md-3 bpad">
+          <a href="#" data-toggle="tooltip" title data-original-title="Gym Buddy" class="thumbnail">
+            <img src="images/birdhaus.png" alt="project">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3 bpad">
+          <a href="#" data-toggle="tooltip" title data-original-title="Everest App" class="thumbnail">
+            <img src="images/everestapp.png" alt="project">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3 bpad">
+          <a href="#" data-toggle="tooltip" title data-original-title="Birdhaus" class="thumbnail">
+            <img src="images/birdhaus.png" alt="project">
+          </a>
+        </div>
+        <div class="col-sm-6 col-md-3 bpad">
+          <a href="#" data-toggle="tooltip" title data-original-title="Console Dot Blog" class="thumbnail">
+            <img src="images/blog.png" alt="project">
+          </a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
         </div>
       </div>
     </div>
@@ -128,7 +120,7 @@
         <div class="row">
           <small>Site last updated April 2014</small>
         </div>
-      </div>
+      </div class>
     </div>
     <!-- End Footer -->
 
@@ -136,5 +128,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(function () {
+          $('.myTooltip').tooltip({
+              selector: "[data-toggle=tooltip]",
+              container: "body"
+          })
+      })
+    </script>
   </body>
 </html>

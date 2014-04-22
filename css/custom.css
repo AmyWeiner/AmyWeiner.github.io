@@ -89,6 +89,11 @@ hr {
     text-align: center;
 }
 
+.ftr small {
+  position: relative;
+  top: 40px; 
+}
+
 @media(min-width: 768px) {
     .carousel-inner > .item {
     height: 700px;
