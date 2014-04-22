@@ -1,13 +1,12 @@
 html, body{
     font-family: 'Signika', sans-serif;
-    font-weight: 300;
     font-size: 16px;
     line-height: 1.7;
     background-color: #f9cc7f;
 }
 
-h1, h2, h3, h4{
-    font-family: 'Signika', sans-serif;
+h1, h2, h3, h4 {
+    font-family: 'Droid Serif', serif;
 }
 
 b, strong{
@@ -31,7 +30,7 @@ b, strong{
 }
 
 .intro-block{
-    background: url(../images/roteMakrorosea.jpg) repeat;
+    background: url(../images/roteMakrorosea.jpg);
     padding: 100px 15px 60px;
     color: #fff;
 }
@@ -48,17 +47,13 @@ b, strong{
     font-weight: 100;
 }
 
-.tpad{
-    padding-top: 20px;
-}
-
 .padded {
   padding: 100px 15px;
 }
 
-.marketing{
+.intro-break{
     background-color: #185e65;   
-    height: 300px;
+    height: 100px;
 }
 
 hr {
@@ -90,16 +85,8 @@ hr {
 .ftr{
     background: #013859;
     color: #fff;   
-    padding: 60px 0 20px 0;
+    height: 100px;
     text-align: center;
-}
-
-.ftr address, .ftr a, .ftr p{
-    
-}
-
-.ft_space{
-    padding: 0 10px;   
 }
 
 @media(min-width: 768px) {
