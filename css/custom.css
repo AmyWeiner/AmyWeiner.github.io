@@ -19,14 +19,13 @@ b, strong{
 
 .carousel-inner > .item > img {
   position: absolute;
-  top: 50px;
   left: 0;
   min-width: 100%;
   height: auto;
 }
 
 .carousel-inner > .item {
-  height: 500px;
+  height: 300px;
 }
 
 .intro-block{
@@ -96,7 +95,7 @@ hr {
 
 @media(min-width: 768px) {
     .carousel-inner > .item {
-    height: 700px;
+    height: 600px;
   }
 }
 

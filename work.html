@@ -62,7 +62,7 @@
           </div>
           <div class="col-xs-9">
             <h1>AMY R. WEINER <span class="text-muted">&raquo; Web Application Developer & Engineer</span></h1>
-            <p class="lead">Echo Park cornhole four loko pop-up, wayfarers master cleanse Wes Anderson. Tattooed Portland squid American Apparel, cornhole Bushwick Cosby sweater letterpress fashion axe chillwave. Bitters iPhone ethnic, vegan wolf distillery Brooklyn PBR&B. </p>
+            <p class="lead"> </p>
           </div>
         </div>
       </div>
@@ -78,6 +78,39 @@
     </div>
     <!-- End Break Section -->
 
+    <div id="myCarousel" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="images/carousel1.png">
+          <div class="container active">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/carousel2.png">
+          <div class="container active">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/carousel3.png">
+          <div class="container active">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/carousel4.png">
+          <div class="container active">
+            <div class="carousel-caption">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- Start Page Content -->
     <div class="container padded">
       <div class="row">
@@ -89,7 +122,7 @@
       <div class="row tpad myTooltip">
         <div class="col-sm-6 col-md-3 bpad">
           <a href="#" data-toggle="tooltip" title data-original-title="Gym Buddy" class="thumbnail">
-            <img src="images/birdhaus.png" alt="project">
+            <img src="images/gym_buddy.png" alt="project">
           </a>
         </div>
         <div class="col-sm-6 col-md-3 bpad">
@@ -131,6 +164,9 @@
     <script src="js/bootstrap.min.js"></script>
     <script>
       $(function () {
+          $('.carousel').carousel({
+              interval: 3000
+          });
           $('.myTooltip').tooltip({
               selector: "[data-toggle=tooltip]",
               container: "body"
